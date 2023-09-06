@@ -1,0 +1,126 @@
+section {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input[id="password"] {
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255, 0.25);
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 2.5px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+input[id="password"]::placeholder {
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+input[id="password"]:focus {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: 2px;
+    caret-color: transparent;
+}
+
+.generator {
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 20px 0;
+}
+
+.options ul {
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+    margin: 0;
+}
+
+.options ul li {
+    padding: 3px 0;
+}
+
+.options ul li label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.range div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="range"] {
+    accent-color: white;
+    background-color: black;
+    border: 0;
+    width: 100%;
+}
+
+button[type="submit"] {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 2.5px;
+    font-size: 1.5rem;
+    transition: all 0.1s ease-in-out;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+button[type="submit"]:focus {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: 2px;
+}

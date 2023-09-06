@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+
+// importing components
+import Heading from "./components/Heading";
+import Generator from "./components/Generator";
+// import Modal from './components/Modal';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Modal /> */}
+      <Heading />
+      <Generator />
+      <footer>
+        Developed by <a href="https://www.hemantsharma.dev">Hemant Sharma</a>.
+      </footer>
     </div>
   );
 }

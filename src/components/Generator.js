@@ -93,8 +93,8 @@ const Generator = () => {
                             name="rangeSelector"
                             id="passwordLength"
                             min={8}
-                            max={32}
-                            step={3}
+                            max={16}
+                            // step={3}
                             value={range}
                             onChange={e => setRange(e.target.value)}
                         />

@@ -4,6 +4,7 @@ import './styles/App.css';
 import Heading from "./components/Heading";
 import Generator from "./components/Generator";
 // import Modal from './components/Modal';
+import "./styles/footer.css"
 
 function App() {
   return (
